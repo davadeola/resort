@@ -1,0 +1,82 @@
+#logo{
+  width: 40px;
+  height: 40px;
+  padding: 0px 0px 10px 10px;
+
+}
+body{
+
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: auto;
+    height: auto;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+}
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('img/free.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+.welcome h1{
+  color: yellow;
+  font-size: 80px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+
+
+}
+
+.welcome img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 40px;
+
+}
+.about{
+  background-color: white;
+  padding: 60px 60px 60px 60px;
+}
+
+.about h1{
+  font-style: oblique;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: yellow;
+  text-align: center;
+  font-size: 60px;
+
+}
+
+.about p{
+  text-align: center;
+  font-style: normal;
+  font-family: sans-serif;
+  padding: 20px 20px 20px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
